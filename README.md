@@ -34,6 +34,27 @@ The following stack is planned for the application layer. The repository current
 - Deployment: Vercel.
 - Data sources: DefiLlama (TVL), Snapshot and Tally and on-chain reads via viem (governance), plus per-feed adapters for each independent risk feed.
 
+## Repository layout
+
+```
+riskatlas/
+  README.md              this file
+  LICENSE                AGPL-3.0, verbatim
+  PROJECT_CHARTER.md     binding rules (no composite scoring, stewardship, amendments)
+  CONTRIBUTING.md        how to propose corrections, additions, and fixes
+  METHODOLOGY.md         feed selection, coverage labels, provenance tags, sources
+  DATA_SCHEMA.md         data model, entities, fields, provenance invariants
+  IMPLEMENTATION_PLAN.md internal step-by-step plan for the application build
+  .gitignore
+  proposal/              holds the Ethereum Foundation RFP proposal PDF
+  data/
+    protocols.seed.json  the 20 v1 seed protocols
+    feeds.registry.json  baseline (14) + added (3) feed providers
+    coverage.example.json illustrative coverage matrix, not real ratings
+```
+
+The `proposal/` directory holds the EF App Relations RFP response as a PDF. The repository tracks `proposal/.gitkeep` so the directory exists before the PDF lands.
+
 ## Status
 
 Early development, built in the open. No production deployment yet. Charter, scope, and planned stack are stable; application code is forthcoming.
@@ -42,10 +63,9 @@ Early development, built in the open. No production deployment yet. Charter, sco
 
 [AGPL-3.0](LICENSE). The repository is public from its first commit.
 
-## Contributing
+## Documents
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections, additional protocols, additional feed providers, and provenance fixes are all welcome through issues and pull requests.
-
-## Project charter
-
-See [PROJECT_CHARTER.md](PROJECT_CHARTER.md). The no-composite-scoring rule defined there is binding on this project and on any successor steward.
+- [PROJECT_CHARTER.md](PROJECT_CHARTER.md): binding rules, including the no-composite-scoring constraint.
+- [CONTRIBUTING.md](CONTRIBUTING.md): how to propose corrections, new protocols, and new feeds.
+- [METHODOLOGY.md](METHODOLOGY.md): how feeds are selected, how coverage is labeled, how provenance is tagged.
+- [DATA_SCHEMA.md](DATA_SCHEMA.md): the data model and the verbatim-storage invariants.
