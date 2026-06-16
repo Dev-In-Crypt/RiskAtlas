@@ -1,0 +1,77 @@
+{
+  "_note": "Illustrative example only. Not real feed ratings.",
+  "cells": [
+    {
+      "protocol_slug": "aave",
+      "feed_name": "LlamaRisk",
+      "status": "covered",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "aave",
+      "feed_name": "Exponential.fi",
+      "status": "partial",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "aave",
+      "feed_name": "Chaos Labs",
+      "status": "covered",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "uniswap",
+      "feed_name": "LlamaRisk",
+      "status": "none",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "uniswap",
+      "feed_name": "Exponential.fi",
+      "status": "covered",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "uniswap",
+      "feed_name": "Chaos Labs",
+      "status": "partial",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "lido",
+      "feed_name": "LlamaRisk",
+      "status": "covered",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "lido",
+      "feed_name": "Exponential.fi",
+      "status": "covered",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    },
+    {
+      "protocol_slug": "lido",
+      "feed_name": "Chaos Labs",
+      "status": "none",
+      "source_url": "",
+      "provenance": "illustrative",
+      "fetched_at": null
+    }
+  ]
+}

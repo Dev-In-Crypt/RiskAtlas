@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "spark",
+    "name": "Spark",
+    "category": "Lending",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "aave",
+    "name": "Aave",
+    "category": "Lending",
+    "family": "aave",
+    "defillama_slug": "aave",
+    "versions": ["v3", "v4"],
+    "verify": true
+  },
+  {
+    "slug": "morpho",
+    "name": "Morpho",
+    "category": "Lending",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "fluid",
+    "name": "Fluid",
+    "category": "Lending",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "gearbox",
+    "name": "Gearbox",
+    "category": "Lending",
+    "family": null,
+    "defillama_slug": "gearbox",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "euler",
+    "name": "Euler",
+    "category": "Lending",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "compound",
+    "name": "Compound",
+    "category": "Lending",
+    "family": "compound",
+    "defillama_slug": "compound",
+    "versions": ["v2", "v3"],
+    "verify": true
+  },
+  {
+    "slug": "liquity",
+    "name": "Liquity",
+    "category": "Lending",
+    "family": "liquity",
+    "defillama_slug": "liquity",
+    "versions": ["v1", "v2"],
+    "verify": true
+  },
+  {
+    "slug": "uniswap",
+    "name": "Uniswap",
+    "category": "DEX/AMM",
+    "family": "uniswap",
+    "defillama_slug": "uniswap",
+    "versions": ["v3", "v4", "UniswapX"],
+    "verify": true
+  },
+  {
+    "slug": "curve",
+    "name": "Curve",
+    "category": "DEX/AMM",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "balancer",
+    "name": "Balancer",
+    "category": "DEX/AMM",
+    "family": null,
+    "defillama_slug": "balancer",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "cow-swap",
+    "name": "CoW Swap",
+    "category": "Swap Aggregator",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "1inch",
+    "name": "1inch",
+    "category": "Swap Aggregator",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "matcha",
+    "name": "0x / Matcha",
+    "category": "Swap Aggregator",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "yearn",
+    "name": "Yearn Finance",
+    "category": "Yield/Vault",
+    "family": null,
+    "defillama_slug": "yearn-finance",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "mellow",
+    "name": "Mellow",
+    "category": "Yield/Vault",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "morpho-vaults",
+    "name": "Morpho Vaults",
+    "category": "Yield/Vault",
+    "family": null,
+    "defillama_slug": "",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "pendle",
+    "name": "Pendle",
+    "category": "Yield/Vault",
+    "family": null,
+    "defillama_slug": "pendle",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "lido",
+    "name": "Lido",
+    "category": "Liquid Staking",
+    "family": null,
+    "defillama_slug": "lido",
+    "versions": [],
+    "verify": true
+  },
+  {
+    "slug": "rocket-pool",
+    "name": "Rocket Pool",
+    "category": "Liquid Staking",
+    "family": null,
+    "defillama_slug": "rocket-pool",
+    "versions": [],
+    "verify": true
+  }
+]

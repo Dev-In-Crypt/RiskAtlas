@@ -1,0 +1,158 @@
+[
+  {
+    "name": "DeFiScan",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Decentralization and risk stage classification for DeFi protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "CuratorWatch",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Tracks curator activity and risk parameter changes across lending markets.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "BlockAnalitica",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Quantitative risk analytics and dashboards for lending and stablecoin protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "DeFiPunk'd",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Independent risk and security commentary on DeFi protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Pharos",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Risk assessments for DeFi protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "DeFi Sphere",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Protocol-level risk and ecosystem coverage.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "DeFi Saver",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Position and protocol risk surfaces used inside the DeFi Saver application.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Credora",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Credit and counterparty risk ratings for digital asset markets.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "RiskLayer",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "DeFi protocol risk classification and monitoring.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "pigi.finance",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Independent DeFi risk publication.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Xerberus",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Asset-level risk ratings derived from on-chain data.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Zyfai Risk",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Risk monitoring for DeFi protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "LlamaRisk",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Risk research and parameter recommendations for lending markets and collateral assets.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Philidor Analytics",
+    "type": "baseline",
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Independent DeFi risk and parameter analytics.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Exponential.fi",
+    "type": "added",
+    "added": true,
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Pool-level risk ratings across DeFi pools and protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "DeFiSafety",
+    "type": "added",
+    "added": true,
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Process-quality reviews for DeFi protocols, scored against a published checklist.",
+    "adapter_status": "planned",
+    "verify": true
+  },
+  {
+    "name": "Chaos Labs",
+    "type": "added",
+    "added": true,
+    "source_url": "",
+    "machine_readable": null,
+    "methodology_note": "Simulation-driven risk analysis and parameter recommendations for DeFi protocols.",
+    "adapter_status": "planned",
+    "verify": true
+  }
+]
