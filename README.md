@@ -44,7 +44,6 @@ riskatlas/
   CONTRIBUTING.md        how to propose corrections, additions, and fixes
   METHODOLOGY.md         feed selection, coverage labels, provenance tags, sources
   DATA_SCHEMA.md         data model, entities, fields, provenance invariants
-  IMPLEMENTATION_PLAN.md internal step-by-step plan for the application build
   .gitignore
   proposal/              holds the Ethereum Foundation RFP proposal PDF
   data/

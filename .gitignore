@@ -40,3 +40,6 @@ Thumbs.db
 !.vscode/extensions.json
 *.swp
 *.swo
+
+# Internal working docs (not public)
+IMPLEMENTATION_PLAN.md
