@@ -1,0 +1,88 @@
+name: Correction
+description: Propose a correction to a rating, link, coverage label, or provenance tag.
+title: "[correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a correction. Please read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) and [PROJECT_CHARTER.md](../blob/main/PROJECT_CHARTER.md) before submitting.
+
+        Reminder: RiskAtlas does not compute or display its own score, rank, or recommendation. Corrections must surface what a source publishes, verbatim, not editorialize it.
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Type of change
+      options:
+        - Rating value or label is wrong
+        - Coverage label is wrong (covered / partial / not yet covered)
+        - Source link is broken or has moved
+        - Provenance tag is wrong (auto / manual)
+        - Add a new protocol
+        - Add a new feed provider
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: protocol
+    attributes:
+      label: Protocol
+      description: Protocol slug or name. Leave blank if the change is feed-wide.
+      placeholder: aave
+  - type: input
+    id: feed
+    attributes:
+      label: Feed
+      description: Feed name. Leave blank if the change is protocol-wide.
+      placeholder: LlamaRisk
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value in RiskAtlas
+      description: What is currently shown (paste verbatim, including the source link if relevant).
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed value
+      description: What it should be (verbatim from the source, no rephrasing).
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Public URL that supports the proposed value.
+    validations:
+      required: true
+  - type: dropdown
+    id: provenance
+    attributes:
+      label: Provenance of the proposed value
+      options:
+        - auto (will be fetched from a machine-readable endpoint)
+        - manual (entered by a named curator)
+    validations:
+      required: true
+  - type: input
+    id: curator
+    attributes:
+      label: Curator (for manual entries)
+      description: Your name or handle. Required if provenance is manual.
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why this change is correct. Keep it factual.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirm
+      options:
+        - label: I have read CONTRIBUTING.md and PROJECT_CHARTER.md.
+          required: true
+        - label: This change does not introduce any composite score, ranking, or editorial commentary.
+          required: true
+        - label: The proposed value is taken verbatim from the source linked above.
+          required: true
