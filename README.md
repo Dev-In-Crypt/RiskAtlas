@@ -26,7 +26,7 @@ The binding form of this constraint lives in [PROJECT_CHARTER.md](PROJECT_CHARTE
 
 ## Planned stack
 
-The following stack is planned for the application layer. The repository currently contains only foundational documentation.
+The application scaffold (Next.js + TypeScript + Tailwind) is in place. Database, ingestion, and the rest of the stack are planned and not yet wired up.
 
 - Application: Next.js with TypeScript, Tailwind CSS, shadcn/ui, TanStack Table.
 - Database: Postgres on Supabase, accessed via Drizzle ORM.
@@ -44,7 +44,21 @@ riskatlas/
   CONTRIBUTING.md        how to propose corrections, additions, and fixes
   METHODOLOGY.md         feed selection, coverage labels, provenance tags, sources
   DATA_SCHEMA.md         data model, entities, fields, provenance invariants
+  package.json           Next.js 15, React 19, TypeScript 5, Tailwind 3
+  tsconfig.json          strict TypeScript with @/* path alias
+  next.config.ts
+  tailwind.config.ts
+  postcss.config.mjs
+  .eslintrc.json
+  .prettierrc.json
+  .editorconfig
+  .nvmrc
   .gitignore
+  src/
+    app/
+      layout.tsx         root layout
+      page.tsx           landing page
+      globals.css        Tailwind base, components, utilities
   proposal/              holds the Ethereum Foundation RFP proposal PDF
   data/
     protocols.seed.json  the 20 v1 seed protocols
@@ -54,9 +68,20 @@ riskatlas/
 
 The `proposal/` directory holds the EF App Relations RFP response as a PDF. The repository tracks `proposal/.gitkeep` so the directory exists before the PDF lands.
 
+## Local development
+
+Requirements: Node 20 or newer, pnpm 10 or newer.
+
+```
+pnpm install
+pnpm dev
+```
+
+The dev server runs at http://localhost:3000. `pnpm lint` and `pnpm typecheck` are wired up and must pass before pull requests merge.
+
 ## Status
 
-Early development, built in the open. No production deployment yet. Charter, scope, and planned stack are stable; application code is forthcoming.
+Early development, built in the open. No production deployment yet. Application scaffold is in place; data adapters, the protocol-by-feed matrix, and detail pages are forthcoming.
 
 ## License
 
