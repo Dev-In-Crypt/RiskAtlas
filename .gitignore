@@ -44,3 +44,14 @@ Thumbs.db
 
 # Internal working docs (not public)
 IMPLEMENTATION_PLAN.md
+AGENTS.md
+ROADMAP.md
+TODO.md
+STATE.md
+VERIFY.md
+ARCHITECTURE.md
+SECURITY_NOTES.md
+DECISIONS.md
+POLICY_NO_SCORE.md
+RUNS/
+.claude/
