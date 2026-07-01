@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "check:no-score": "node scripts/check-no-score.mjs"
   },
   "dependencies": {
     "next": "^15.0.0",
